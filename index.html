@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="en">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search-box">
+        <input id="location-input" type="text" placeholder="Enter a location"/>
+        <button id="search-button" onclick="findCafes()">Search Cafes</button>
+    </div>
+    <div id="map"></div>
+    <script
+  async
+  defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBo2EzXyrYDs8phVVeuq_ohqgk1EBq1rvI&libraries=places&callback=initMap">
+</script>
+
+    <script src="app.js"></script>
+</body>
+</html>
